@@ -7,18 +7,20 @@ const StyledAppLayout = styled.div`
 	display: grid;
 	grid-template-columns: 26rem 1fr;
 	grid-template-rows: auto 1fr;
-	height: 100%;
+	height: 100vh;
+	/* overflow: hidden; */
 `;
 const Main = styled.main`
 	background-color: var(--color-grey-50);
 	padding: 4rem 4.8rem 0 4.8rem;
-	overflow: auto;
-	height: 100vh;
+	min-height: fit-content;
 `;
 
 const Container = styled.div`
 	max-width: 120rem;
 	margin: 0 auto;
+
+	padding-bottom: 4rem;
 
 	display: flex;
 	flex-direction: column;

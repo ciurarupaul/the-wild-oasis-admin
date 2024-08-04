@@ -14,7 +14,7 @@ const StyledSidebar = styled.aside`
 	gap: 3.2rem;
 
 	min-height: fit-content;
-	max-height: 100vh;
+	max-height: auto;
 `;
 
 function Sidebar() {
